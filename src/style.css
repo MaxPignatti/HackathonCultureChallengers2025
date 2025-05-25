@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+  }
+  
+  button, select, input {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  button {
+    background-color: #6A64F1;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #584ee6;
+  }
+  
+  select, input {
+    background: #f3f3f3;
+    width: 100%;
+  }
+  
+  .model-container {
+    margin-top: 20px;
+  }
+  
+  .webcam-preview {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+
+ .success-message {
+  color: green;
+  background-color: #e6ffe6;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.error-message {
+  color: red;
+  background-color: #ffe6e6;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
